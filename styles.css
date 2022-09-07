@@ -1,0 +1,123 @@
+body {
+    margin: 0; 
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.header ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.header .button a{
+    color: white;
+}
+
+.button{
+    padding: 9px 15px;
+    background-color: rgb(35, 102, 245);
+    margin-left: 25px;
+    margin-right: 25px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    border: 1px solid grey;
+    width: 700px;
+    height: 44px;
+    margin: 20px auto;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input{
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 0.7; 
+}
+
+.button2{
+    width: auto;
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 4px;
+    margin: 0 20px; 
+}
+
+.two_buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.text_one{
+    text-align: center;
+}
+
+.text_two{
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer{
+    background-color: lightgray;
+    margin-top: 262px;
+    padding: 5px 0;
+    
+}
+
+.row_one{
+    padding-left: 45px;
+}
+
+.row_two{
+    padding: 0.5px;
+    border-top: 0.2px solid gray;
+    display:flex;
+    justify-content: space-between;
+}
+
+.left_navbar, .right_navbar{
+    display: flex;
+}
+
+.right_navbar{
+    padding-right: 37px; 
+}
+
+.header :hover{
+    text-decoration: underline;
+}
+
+.left_navbar :hover{
+    text-decoration: underline;
+}
+
+.centre_navbar :hover{
+    text-decoration: underline;
+}
+
+.right_navbar :hover{
+    text-decoration: underline;
+}
+
